@@ -149,6 +149,71 @@
                 margin-top: 100px;
                 cursor: pointer;
             }
+            /*Estrutura do footer ( rode pé) */
+
+            footer {
+                width: 100%;
+                background-color: var(--azul-dnc);
+
+            }
+
+           footer .linha-um {
+            display: flex;
+            align-items: center;
+
+           }
+           footer ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+                        
+           }
+           footer nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+           }
+
+           footer h5 {
+            text-align: center;
+            font-weight: 800;
+            font-size: 18px;
+            color: white;
+            font-family: var(--fonte-padrao);
+            background-color: var(--preto-dnc);
+            border-radius: 10px;
+            margin-bottom: 15px;
+
+            padding: 0px 10px 0px 10px;
+
+
+           }
+
+           footer ul li {
+            text-align: center;
+            font-size: 18px;
+            color: white;
+            font-weight: 600;
+
+            margin: 20px 0px 20px 0px;
+           }
+           footer ul li a {
+            color: white;
+            text-decoration: none;            
+           }
+           footer ul li a:hover{
+            color: var(--cinza-houver);
+           }
+           
+           footer .endereco {
+            font-weight:600 ;
+            font-size: 18px;
+            font-family: var(--fonte-padrao);
+            color: white;
+            text-align: center;
+            width: 30%;
+           }
+
 
 
 
